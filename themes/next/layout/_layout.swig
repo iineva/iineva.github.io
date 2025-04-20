@@ -52,6 +52,7 @@
         {{ partial('_partials/footer.swig', {}, {cache: theme.cache.enable}) }}
         {% include '_third-party/analytics/analytics-with-widget.swig' %}
         {% block footer %}{% endblock %}
+        <a href="https://beian.miit.gov.cn/">粤ICP备2021074598号-2</a>
       </div>
     </footer>
 
